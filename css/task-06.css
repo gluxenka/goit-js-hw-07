@@ -1,0 +1,56 @@
+body {
+  font-family: Montserrat;
+}
+#controls {
+  background: #f6f6fe;
+  display: flex;
+  padding: 32px;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 8px;
+  width: 486px;
+  margin-bottom: 16px;
+}
+#boxes {
+  background: #f6f6fe;
+  display: flex;
+  padding: 32px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+  border-radius: 8px;
+}
+input {
+  padding: 8px 0;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+}
+input:hover {
+  border: 1px solid #000;
+}
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+}
+[data-create] {
+  background: #4e75ff;
+}
+[data-create]:hover {
+  background: #6c8cff;
+}
+[data-destroy] {
+  background: #ff4e4e;
+}
+[data-destroy]:hover {
+  background: #ff7070;
+}

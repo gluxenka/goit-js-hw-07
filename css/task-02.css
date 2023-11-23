@@ -1,0 +1,12 @@
+.gallery img {
+  width: 360px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+}
