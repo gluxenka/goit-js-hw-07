@@ -1,0 +1,34 @@
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  background: var(--button-color);
+  width: 148px;
+  height: 40px;
+}
+
+button:hover {
+  background: var(--boton-hover-color);
+}
+
+p {
+  margin-bottom: 16px;
+  color: #2e2f42;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.64px;
+}
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 24px - 16px * 2 - 16px * 2);
+}
